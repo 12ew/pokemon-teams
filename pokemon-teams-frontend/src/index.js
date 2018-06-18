@@ -17,7 +17,7 @@ function renderTrainer(trainer) {
 
   let trainerName = `<div class="card" data-id="${trainer.id}"><p>${trainer.name}</p></div>`
 
-  let addPokemonButton = `<button data-trainer-id="${trainer.pokemons.trainer_id}">Add Pokemon</button>`
+  let addPokemonButton = `<button data-trainer-id="${trainer.id}">Add Pokemon</button>`
 
   let releasePokemonButton =
   `<ul>
