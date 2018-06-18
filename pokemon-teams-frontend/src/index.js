@@ -23,7 +23,7 @@ function renderTrainer(trainer) {
   `<ul>
     ${trainer.pokemons.map( pokemon => {
       return `<li>${pokemon.nickname} (${pokemon.species}) <button class="release" data-pokemon-id="${pokemon.id}">Release</button></li>`
-    }).join('')}
+    })}
   </ul>`
 
   trainerName.innerHTML += addPokemonButton
